@@ -91,6 +91,98 @@ body {
   width: 12%;
   height: 4.5%;
 }
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IMPULSA | Tarjeta digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=League+Spartan:wght@700&display=swap" rel="stylesheet" />
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contenedor {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+}
+.tarjeta {
+  width: 100%;
+  display: block;
+}
+.link-area {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  overflow: visible;
+}
+.whatsapp::after,
+.instagram::after,
+.facebook::after,
+.tiktok::after,
+.telefono::after {
+  content: "";
+  position: absolute;
+  inset: -14px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 999px;
+  background: radial-gradient(
+    circle,
+    rgba(189, 135, 68, 0.38) 0%,
+    rgba(189, 135, 68, 0.18) 35%,
+    rgba(189, 135, 68, 0.04) 65%,
+    rgba(189, 135, 68, 0) 100%
+  );
+  filter: blur(3px);
+  transform: scale(0.7);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.whatsapp:hover::after,
+.instagram:hover::after,
+.facebook:hover::after,
+.tiktok:hover::after,
+.telefono:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+.whatsapp:active::after,
+.instagram:active::after,
+.facebook:active::after,
+.tiktok:active::after,
+.telefono:active::after {
+  opacity: 1;
+  transform: scale(0.9);
+}
+.whatsapp {
+  left: 13.8%;
+  top: 69.15%;
+  width: 12%;
+  height: 4.5%;
+}
+.instagram {
+  left: 29.7%;
+  top: 69.15%;
+  width: 12%;
+  height: 4.5%;
+}
 .facebook {
   left: 45.3%;
   top: 69.15%;
@@ -206,9 +298,14 @@ if (contacto) {
     '<a class="link-area tiktok" href="https://www.tiktok.com/@impulsa.gt" target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>' +
     '<a id="linkTelefono" class="link-area telefono" aria-label="Llamar"></a>' +
     '<button class="boton-real guardar-contacto" type="button" onclick="guardarContacto()" aria-label="Guardar contacto">GUARDAR CONTACTO</button>' +
-    '<a class="boton-real visitar-impulsa" href="https://impulsa.com.gt" target="_blank" rel="noopener noreferrer" aria-label="Visitar IMPULSA">VISITAR IMPULSA</a>';
+    '<a class="boton-real visitar-impulsa" href="https://impulsa.com.gt" target="_blank" rel="noopener noreferrer" aria-label="Visitar IMPULSA">VISITAR IMPULSA</a>' +
+    '<div class="espacio-extra"></div>';
   document.getElementById("linkWhatsApp").href = "https://wa.me/" + contacto.telefono;
   document.getElementById("linkTelefono").href = "tel:+" + contacto.telefono;
+  if (contacto.extraBottomPercent) {
+    var elEspacio = app.querySelector(".espacio-extra");
+    if (elEspacio) elEspacio.style.paddingBottom = contacto.extraBottomPercent + "%";
+  }
   if (contacto.iconsTop) {
     ["whatsapp", "instagram", "facebook", "tiktok", "telefono"].forEach(function (cls) {
       var el = app.querySelector("." + cls);
@@ -230,9 +327,17 @@ if (contacto) {
     var elGuardar = app.querySelector(".guardar-contacto");
     if (elGuardar) elGuardar.style.top = contacto.guardarTop + "%";
   }
+  if (contacto.guardarHeight) {
+    var elGuardarH = app.querySelector(".guardar-contacto");
+    if (elGuardarH) elGuardarH.style.height = contacto.guardarHeight + "%";
+  }
   if (contacto.visitarTop) {
     var elVisitar = app.querySelector(".visitar-impulsa");
     if (elVisitar) elVisitar.style.top = contacto.visitarTop + "%";
+  }
+  if (contacto.visitarHeight) {
+    var elVisitarH = app.querySelector(".visitar-impulsa");
+    if (elVisitarH) elVisitarH.style.height = contacto.visitarHeight + "%";
   }
 } else {
   document.title = "IMPULSA | Directorio de tarjetas";
