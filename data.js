@@ -114,6 +114,7 @@ const TARJETAS = {
     telefonoVisible: "+502 4012 6340",
     correo: "gvanegas@impulsa.com.gt",
     puesto: "Gerente Administrativa de Proyectos",
-    imagen: "gabrielavanegas.png"
+    imagen: "gabrielavanegas.png",
+    iconsTop: 71.9
   }
 };
