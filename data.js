@@ -69,5 +69,15 @@ const TARJETAS = {
     puesto: "Directora de Mercadeo",
     imagen: "cristinaleung.png",
     iconsTop: 71.25
+  },
+  escarlethamado: {
+    nombreCompleto: "Escarleth Amado",
+    nombre: "Escarleth",
+    apellido: "Amado",
+    telefono: "50230042660",
+    telefonoVisible: "+502 3004 2660",
+    correo: "eamado@impulsa.com.gt",
+    puesto: "Gerente Administrativa",
+    imagen: "escarlethamado.png"
   }
 };
