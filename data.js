@@ -68,7 +68,7 @@ const TARJETAS = {
     correo: "mleung@impulsa.com.gt",
     puesto: "Directora de Mercadeo",
     imagen: "cristinaleung.png",
-    iconsTop: 71.25
+    iconsTop: 71.6
   },
   escarlethamado: {
     nombreCompleto: "Escarleth Amado",
