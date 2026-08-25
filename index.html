@@ -215,6 +215,17 @@ if (contacto) {
       if (el) el.style.top = contacto.iconsTop + "%";
     });
   }
+  if (contacto.iconOverrides) {
+    Object.keys(contacto.iconOverrides).forEach(function (cls) {
+      var el = app.querySelector("." + cls);
+      if (!el) return;
+      var o = contacto.iconOverrides[cls];
+      if (o.top != null) el.style.top = o.top + "%";
+      if (o.left != null) el.style.left = o.left + "%";
+      if (o.width != null) el.style.width = o.width + "%";
+      if (o.height != null) el.style.height = o.height + "%";
+    });
+  }
   if (contacto.guardarTop) {
     var elGuardar = app.querySelector(".guardar-contacto");
     if (elGuardar) elGuardar.style.top = contacto.guardarTop + "%";
