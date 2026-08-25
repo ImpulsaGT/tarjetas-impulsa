@@ -105,5 +105,15 @@ const TARJETAS = {
     iconsTop: 75,
     guardarTop: 82.2,
     visitarTop: 89.4
+  },
+  gabrielavanegas: {
+    nombreCompleto: "Gabriela Vanegas",
+    nombre: "Gabriela",
+    apellido: "Vanegas",
+    telefono: "50240126340",
+    telefonoVisible: "+502 4012 6340",
+    correo: "gvanegas@impulsa.com.gt",
+    puesto: "Gerente Administrativa de Proyectos",
+    imagen: "gabrielavanegas.png"
   }
 };
