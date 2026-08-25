@@ -92,5 +92,15 @@ const TARJETAS = {
     iconsTop: 65.6,
     guardarTop: 75.3,
     visitarTop: 83.4
+  },
+  juanfrancisco: {
+    nombreCompleto: "Juan Francisco Abril",
+    nombre: "Juan Francisco",
+    apellido: "Abril",
+    telefono: "50258789098",
+    telefonoVisible: "+502 5878 9098",
+    correo: "jfabril@impulsa.com.gt",
+    puesto: "CEO",
+    imagen: "juanfrancisco.png"
   }
 };
