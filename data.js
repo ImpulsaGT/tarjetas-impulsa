@@ -79,5 +79,15 @@ const TARJETAS = {
     correo: "eamado@impulsa.com.gt",
     puesto: "Gerente Administrativa",
     imagen: "escarlethamado.png"
+  },
+  franciscoleon: {
+    nombreCompleto: "Francisco León",
+    nombre: "Francisco",
+    apellido: "León",
+    telefono: "50240677551",
+    telefonoVisible: "+502 4067 7551",
+    correo: "fleon@impulsa.com.gt",
+    puesto: "COO",
+    imagen: "franciscoleon.png"
   }
 };
