@@ -20,3 +20,4 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 - Cristina Leung: https://impulsagt.github.io/tarjetas-impulsa/?p=cristinaleung
 - Escarleth Amado: https://impulsagt.github.io/tarjetas-impulsa/?p=escarlethamado
 - Francisco León: https://impulsagt.github.io/tarjetas-impulsa/?p=franciscoleon
+- Juan Francisco Abril: https://impulsagt.github.io/tarjetas-impulsa/?p=juanfrancisco
