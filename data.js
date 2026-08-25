@@ -68,15 +68,18 @@ const TARJETAS = {
     correo: "mleung@impulsa.com.gt",
     puesto: "Directora de Mercadeo",
     imagen: "cristinaleung.png",
+    extraBottomPercent: 20.93,
     iconOverrides: {
-      whatsapp: { top: 79.1, left: 20.85, width: 8.36 },
-      instagram: { top: 79.1, left: 33.33, width: 8.14 },
-      facebook: { top: 79.1, left: 45.71, width: 8.14 },
-      tiktok: { top: 79.1, left: 58.19, width: 8.14 },
-      telefono: { top: 79.1, left: 70.35, width: 8.25 }
+      whatsapp: { top: 71.40, left: 20.85, width: 8.36, height: 4.086 },
+      instagram: { top: 71.40, left: 33.33, width: 8.14, height: 4.086 },
+      facebook: { top: 71.40, left: 45.71, width: 8.14, height: 4.086 },
+      tiktok: { top: 71.40, left: 58.19, width: 8.14, height: 4.086 },
+      telefono: { top: 71.40, left: 70.35, width: 8.25, height: 4.086 }
     },
-    guardarTop: 85.0,
-    visitarTop: 92.9
+    guardarTop: 80.11,
+    guardarHeight: 8.495,
+    visitarTop: 90.11,
+    visitarHeight: 8.495
   },
   escarlethamado: {
     nombreCompleto: "Escarleth Amado",
@@ -123,6 +126,8 @@ const TARJETAS = {
     correo: "gvanegas@impulsa.com.gt",
     puesto: "Gerente Administrativa de Proyectos",
     imagen: "gabrielavanegas.png",
-    iconsTop: 71.9
+    iconsTop: 71.9,
+    guardarTop: 80.15,
+    visitarTop: 88.27
   }
 };
