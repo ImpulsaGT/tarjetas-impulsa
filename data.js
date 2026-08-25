@@ -58,5 +58,15 @@ const TARJETAS = {
     correo: "kperez@impulsa.com.gt",
     puesto: "Asesor de Ventas",
     imagen: "karlaperez.png"
+  },
+  cristinaleung: {
+    nombreCompleto: "Cristina Leung",
+    nombre: "Cristina",
+    apellido: "Leung",
+    telefono: "50234844970",
+    telefonoVisible: "+502 3484 4970",
+    correo: "mleung@impulsa.com.gt",
+    puesto: "Directora de Mercadeo",
+    imagen: "cristina_leon.png"
   }
 };
