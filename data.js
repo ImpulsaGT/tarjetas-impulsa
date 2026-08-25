@@ -114,8 +114,10 @@ const TARJETAS = {
     puesto: "CEO",
     imagen: "juanfrancisco.png",
     iconsTop: 75,
-    guardarTop: 82.2,
-    visitarTop: 89.4
+    guardarTop: 83.237,
+    guardarHeight: 6.785,
+    visitarTop: 91.202,
+    visitarHeight: 6.785
   },
   gabrielavanegas: {
     nombreCompleto: "Gabriela Vanegas",
