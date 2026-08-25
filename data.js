@@ -20,9 +20,9 @@ const TARJETAS = {
     imagen: "wernergaitan.png"
   },
   ericadonis: {
-    nombreCompleto: "Erica Domis",
+    nombreCompleto: "Erica Donis",
     nombre: "Erica",
-    apellido: "Domis",
+    apellido: "Donis",
     telefono: "50239974468",
     telefonoVisible: "+502 3997 4468",
     correo: "edonis@impulsa.com.gt",
@@ -40,9 +40,9 @@ const TARJETAS = {
     imagen: "mariateresa.png"
   },
   diego: {
-    nombreCompleto: "Diego Marroquin",
+    nombreCompleto: "Diego Marroquín",
     nombre: "Diego",
-    apellido: "Marroquin",
+    apellido: "Marroquín",
     telefono: "50239975836",
     telefonoVisible: "+502 3997 5836",
     correo: "dmarroquin@impulsa.com.gt",
