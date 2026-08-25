@@ -17,3 +17,4 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 - María Teresa Gochez: https://impulsagt.github.io/tarjetas-impulsa/?p=mariateresa
 - Diego Marroquín: https://impulsagt.github.io/tarjetas-impulsa/?p=diego
 - Karla Pérez: https://impulsagt.github.io/tarjetas-impulsa/?p=karlaperez
+- Cristina Leung: https://impulsagt.github.io/tarjetas-impulsa/?p=cristinaleung
