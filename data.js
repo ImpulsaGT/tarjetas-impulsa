@@ -68,7 +68,15 @@ const TARJETAS = {
     correo: "mleung@impulsa.com.gt",
     puesto: "Directora de Mercadeo",
     imagen: "cristinaleung.png",
-    iconsTop: 71.6
+    iconOverrides: {
+      whatsapp: { top: 79.1, left: 20.85, width: 8.36 },
+      instagram: { top: 79.1, left: 33.33, width: 8.14 },
+      facebook: { top: 79.1, left: 45.71, width: 8.14 },
+      tiktok: { top: 79.1, left: 58.19, width: 8.14 },
+      telefono: { top: 79.1, left: 70.35, width: 8.25 }
+    },
+    guardarTop: 85.0,
+    visitarTop: 92.9
   },
   escarlethamado: {
     nombreCompleto: "Escarleth Amado",
