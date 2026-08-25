@@ -125,6 +125,7 @@ body {
   background: #ffffff;
   color: #111111;
   border: 3px solid #bd8744;
+  border-radius: 10px;
   box-shadow: none;
   transition: all 0.22s ease;
 }
@@ -205,6 +206,12 @@ if (contacto) {
     '<a class="boton-real visitar-impulsa" href="https://impulsa.com.gt" target="_blank" rel="noopener noreferrer" aria-label="Visitar IMPULSA">VISITAR IMPULSA</a>';
   document.getElementById("linkWhatsApp").href = "https://wa.me/" + contacto.telefono;
   document.getElementById("linkTelefono").href = "tel:+" + contacto.telefono;
+  if (contacto.iconsTop) {
+    ["whatsapp", "instagram", "facebook", "tiktok", "telefono"].forEach(function (cls) {
+      var el = app.querySelector("." + cls);
+      if (el) el.style.top = contacto.iconsTop + "%";
+    });
+  }
 } else {
   document.title = "IMPULSA | Directorio de tarjetas";
   var items = Object.keys(TARJETAS).map(function (key) {
