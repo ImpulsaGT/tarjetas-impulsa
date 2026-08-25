@@ -101,6 +101,9 @@ const TARJETAS = {
     telefonoVisible: "+502 5878 9098",
     correo: "jfabril@impulsa.com.gt",
     puesto: "CEO",
-    imagen: "juanfrancisco.png"
+    imagen: "juanfrancisco.png",
+    iconsTop: 75,
+    guardarTop: 82.2,
+    visitarTop: 89.4
   }
 };
