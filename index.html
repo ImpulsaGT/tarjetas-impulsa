@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IMPULSA | Tarjeta digital</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contenedor {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+}
+.tarjeta {
+  width: 100%;
+  display: block;
+}
+.link-area {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  overflow: visible;
+}
+.whatsapp::after,
+.instagram::after,
+.facebook::after,
+.tiktok::after,
+.telefono::after {
+  content: "";
+  position: absolute;
+  inset: -14px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 999px;
+  background: radial-gradient(
+    circle,
+    rgba(189, 135, 68, 0.38) 0%,
+    rgba(189, 135, 68, 0.18) 35%,
+    rgba(189, 135, 68, 0.04) 65%,
+    rgba(189, 135, 68, 0) 100%
+  );
+  filter: blur(3px);
+  transform: scale(0.7);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.whatsapp:hover::after,
+.instagram:hover::after,
+.facebook:hover::after,
+.tiktok:hover::after,
+.telefono:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+.whatsapp:active::after,
+.instagram:active::after,
+.facebook:active::after,
+.tiktok:active::after,
+.telefono:active::after {
+  opacity: 1;
+  transform: scale(0.9);
+}
+.whatsapp {
+  left: 13.8%;
+  top: 68.8%;
+  width: 12%;
+  height: 5.2%;
+}
+.instagram {
+  left: 29.7%;
+  top: 68.8%;
+  width: 12%;
+  height: 5.2%;
+}
+.facebook {
+  left: 45.3%;
+  top: 68.8%;
+  width: 12%;
+  height: 5.2%;
+}
+.tiktok {
+  left: 60.9%;
+  top: 68.8%;
+  width: 12%;
+  height: 5.2%;
+}
+.telefono {
+  left: 76.4%;
+  top: 68.8%;
+  width: 12%;
+  height: 5.2%;
+}
+.boton-real {
+  position: absolute;
+  left: 14%;
+  width: 72%;
+  height: 6.9%;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: clamp(15px, 4vw, 22px);
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background: #ffffff;
+  color: #111111;
+  border: 3px solid #bd8744;
+  box-shadow: none;
+  transition: all 0.22s ease;
+}
+.guardar-contacto {
+  top: 77.45%;
+}
+.visitar-impulsa {
+  top: 85.55%;
+}
+.boton-real:hover {
+  background: #ffffff;
+  color: #111111;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(189, 135, 68, 0.22);
+}
+.boton-real:active {
+  transform: scale(0.98);
+  background: #ffffff;
+}
+@media (max-width: 600px) {
+  .contenedor {
+    max-width: 100%;
+  }
+  .boton-real {
+    font-size: 19px;
+  }
+}
+.directorio {
+  max-width: 430px;
+  width: 100%;
+  padding: 32px 24px;
+  text-align: center;
+}
+.directorio h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.directorio p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.directorio a {
+  display: block;
+  padding: 14px;
+  margin-bottom: 10px;
+  border: 2px solid #bd8744;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+.directorio a:hover {
+  background: #faf3ea;
+}
+</style>
+</head>
+<body>
+<main class="contenedor" id="app"></main>
+
+<script src="data.js"></script>
+<script>
+var params = new URLSearchParams(location.search);
+var slug = params.get("p");
+var contacto = slug ? TARJETAS[slug] : null;
+var app = document.getElementById("app");
+
+if (contacto) {
+  document.title = contacto.nombreCompleto + " | IMPULSA";
+  app.innerHTML =
+    '<img class="tarjeta" src="img/' + contacto.imagen + '" alt="Tarjeta digital de ' + contacto.nombreCompleto + ' - IMPULSA" />' +
+    '<a id="linkWhatsApp" class="link-area whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"></a>' +
+    '<a class="link-area instagram" href="https://www.instagram.com/impulsa.gt/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>' +
+    '<a class="link-area facebook" href="https://www.facebook.com/ImpulsaDesarrollos" target="_blank" rel="noopener noreferrer" aria-label="Facebook"></a>' +
+    '<a class="link-area tiktok" href="https://www.tiktok.com/@impulsa.gt" target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>' +
+    '<a id="linkTelefono" class="link-area telefono" aria-label="Llamar"></a>' +
+    '<button class="boton-real guardar-contacto" type="button" onclick="guardarContacto()" aria-label="Guardar contacto">GUARDAR CONTACTO</button>' +
+    '<a class="boton-real visitar-impulsa" href="https://impulsa.com.gt" target="_blank" rel="noopener noreferrer" aria-label="Visitar IMPULSA">VISITAR IMPULSA</a>';
+  document.getElementById("linkWhatsApp").href = "https://wa.me/" + contacto.telefono;
+  document.getElementById("linkTelefono").href = "tel:+" + contacto.telefono;
+} else {
+  document.title = "IMPULSA | Directorio de tarjetas";
+  var items = Object.keys(TARJETAS).map(function (key) {
+    var c = TARJETAS[key];
+    return '<a href="?p=' + key + '">' + c.nombreCompleto + "</a>";
+  }).join("");
+  app.className = "directorio";
+  app.innerHTML =
+    "<h1>Tarjetas digitales IMPULSA</h1>" +
+    "<p>Selecciona una tarjeta para ver el contacto.</p>" +
+    items;
+}
+
+function guardarContacto() {
+  if (!contacto) return;
+  var nombrePila = contacto.nombre || contacto.nombreCompleto;
+  var vcard = [
+    "BEGIN:VCARD",
+    "VERSION:3.0",
+    "N:" + contacto.apellido + ";" + nombrePila + ";;;",
+    "FN:" + contacto.nombreCompleto,
+    "ORG:IMPULSA",
+    "TITLE:" + contacto.puesto,
+    "TEL;TYPE=CELL:+" + contacto.telefono,
+    "EMAIL;TYPE=INTERNET:" + contacto.correo,
+    "URL:https://impulsa.com.gt",
+    "END:VCARD"
+  ].join("\r\n");
+
+  var archivo = new Blob([vcard], { type: "text/vcard;charset=utf-8" });
+  var enlace = document.createElement("a");
+  enlace.href = URL.createObjectURL(archivo);
+  enlace.download = nombrePila.replace(/\s+/g, "-") + "-" + contacto.apellido.replace(/\s+/g, "-") + ".vcf";
+  document.body.appendChild(enlace);
+  enlace.click();
+  document.body.removeChild(enlace);
+  setTimeout(function () {
+    URL.revokeObjectURL(enlace.href);
+  }, 1000);
+}
+</script>
+</body>
+</html>
