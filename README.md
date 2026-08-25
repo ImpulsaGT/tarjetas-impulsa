@@ -13,7 +13,7 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 ## Tarjetas actuales
 
 - Werner Gaitán: https://impulsagt.github.io/tarjetas-impulsa/?p=wernergaitan
-- Erica Domis: https://impulsagt.github.io/tarjetas-impulsa/?p=ericadonis
+- Erica Donis: https://impulsagt.github.io/tarjetas-impulsa/?p=ericadonis
 - María Teresa Gochez: https://impulsagt.github.io/tarjetas-impulsa/?p=mariateresa
-- Diego Marroquin: https://impulsagt.github.io/tarjetas-impulsa/?p=diego
+- Diego Marroquín: https://impulsagt.github.io/tarjetas-impulsa/?p=diego
 - Karla Pérez: https://impulsagt.github.io/tarjetas-impulsa/?p=karlaperez
