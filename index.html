@@ -215,6 +215,14 @@ if (contacto) {
       if (el) el.style.top = contacto.iconsTop + "%";
     });
   }
+  if (contacto.guardarTop) {
+    var elGuardar = app.querySelector(".guardar-contacto");
+    if (elGuardar) elGuardar.style.top = contacto.guardarTop + "%";
+  }
+  if (contacto.visitarTop) {
+    var elVisitar = app.querySelector(".visitar-impulsa");
+    if (elVisitar) elVisitar.style.top = contacto.visitarTop + "%";
+  }
 } else {
   document.title = "IMPULSA | Directorio de tarjetas";
   var items = Object.keys(TARJETAS).map(function (key) {
