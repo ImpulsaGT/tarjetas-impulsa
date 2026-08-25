@@ -67,6 +67,6 @@ const TARJETAS = {
     telefonoVisible: "+502 3484 4970",
     correo: "mleung@impulsa.com.gt",
     puesto: "Directora de Mercadeo",
-    imagen: "cristina_leon.png"
+    imagen: "cristinaleung.png"
   }
 };
