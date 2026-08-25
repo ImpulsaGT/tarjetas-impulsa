@@ -88,6 +88,9 @@ const TARJETAS = {
     telefonoVisible: "+502 4067 7551",
     correo: "fleon@impulsa.com.gt",
     puesto: "COO",
-    imagen: "franciscoleon.png"
+    imagen: "franciscoleon.png",
+    iconsTop: 65.6,
+    guardarTop: 75.3,
+    visitarTop: 83.4
   }
 };
