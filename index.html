@@ -44,6 +44,7 @@ body {
 .whatsapp::after,
 .instagram::after,
 .facebook::after,
+.linkedin::after,
 .tiktok::after,
 .telefono::after {
   content: "";
@@ -66,6 +67,7 @@ body {
 .whatsapp:hover::after,
 .instagram:hover::after,
 .facebook:hover::after,
+.linkedin:hover::after,
 .tiktok:hover::after,
 .telefono:hover::after {
   opacity: 1;
@@ -74,6 +76,7 @@ body {
 .whatsapp:active::after,
 .instagram:active::after,
 .facebook:active::after,
+.linkedin:active::after,
 .tiktok:active::after,
 .telefono:active::after {
   opacity: 1;
@@ -92,6 +95,12 @@ body {
   height: 4.5%;
 }
 .facebook {
+  left: 45.3%;
+  top: 69.15%;
+  width: 12%;
+  height: 4.5%;
+}
+.linkedin {
   left: 45.3%;
   top: 69.15%;
   width: 12%;
@@ -203,6 +212,7 @@ if (contacto) {
     '<a id="linkWhatsApp" class="link-area whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"></a>' +
     '<a class="link-area instagram" href="https://www.instagram.com/impulsa.gt/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>' +
     '<a class="link-area facebook" href="https://www.facebook.com/ImpulsaDesarrollos" target="_blank" rel="noopener noreferrer" aria-label="Facebook"></a>' +
+    (contacto.linkedin ? '<a class="link-area linkedin" href="' + contacto.linkedin + '" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"></a>' : '') +
     '<a class="link-area tiktok" href="https://www.tiktok.com/@impulsa.gt" target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>' +
     '<a id="linkTelefono" class="link-area telefono" aria-label="Llamar"></a>' +
     '<button class="boton-real guardar-contacto" type="button" onclick="guardarContacto()" aria-label="Guardar contacto">GUARDAR CONTACTO</button>' +
@@ -215,7 +225,7 @@ if (contacto) {
     if (elEspacio) elEspacio.style.paddingBottom = contacto.extraBottomPercent + "%";
   }
   if (contacto.iconsTop) {
-    ["whatsapp", "instagram", "facebook", "tiktok", "telefono"].forEach(function (cls) {
+    ["whatsapp", "instagram", "facebook", "linkedin", "tiktok", "telefono"].forEach(function (cls) {
       var el = app.querySelector("." + cls);
       if (el) el.style.top = contacto.iconsTop + "%";
     });
