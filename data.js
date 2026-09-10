@@ -89,9 +89,17 @@ const TARJETAS = {
     correo: "fleon@impulsa.com.gt",
     puesto: "COO",
     imagen: "franciscoleon.png",
-    iconsTop: 65.6,
-    guardarTop: 75.3,
-    visitarTop: 83.4
+    linkedin: "https://www.linkedin.com/in/jose-francisco-leon-liu-38908b319/",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   juanfrancisco: {
     nombreCompleto: "Juan Francisco Abril",
@@ -102,11 +110,17 @@ const TARJETAS = {
     correo: "jfabril@impulsa.com.gt",
     puesto: "CEO",
     imagen: "juanfrancisco.png",
-    iconsTop: 75,
-    guardarTop: 83.237,
-    guardarHeight: 6.785,
-    visitarTop: 91.202,
-    visitarHeight: 6.785
+    linkedin: "https://www.linkedin.com/in/juan-francisco-abril-882349205/",
+    iconOverrides: {
+      whatsapp: { top: 69.24, left: 12.833, width: 10.778, height: 6.74 },
+      instagram: { top: 69.24, left: 25.611, width: 10.444, height: 6.74 },
+      facebook: { top: 69.24, left: 37.833, width: 10.444, height: 6.74 },
+      linkedin: { top: 69.24, left: 50.056, width: 11.222, height: 6.74 },
+      telefono: { top: 69.24, left: 62.167, width: 10.444, height: 6.74 },
+      tiktok: { top: 69.24, left: 74.167, width: 10.444, height: 6.74 }
+    },
+    guardarTop: 79.08,
+    visitarTop: 88.47
   },
   gabrielavanegas: {
     nombreCompleto: "Gabriela Vanegas",
