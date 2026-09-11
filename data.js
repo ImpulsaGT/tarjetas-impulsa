@@ -17,7 +17,18 @@ const TARJETAS = {
     telefonoVisible: "+502 5212 3163",
     correo: "wgaitan@impulsa.com.gt",
     puesto: "Asesor de Ventas",
-    imagen: "wernergaitan.png"
+    imagen: "wernergaitan.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   ericadonis: {
     nombreCompleto: "Erica Donis",
@@ -27,7 +38,18 @@ const TARJETAS = {
     telefonoVisible: "+502 3997 4468",
     correo: "edonis@impulsa.com.gt",
     puesto: "Asesor de Ventas",
-    imagen: "ericadonis.png"
+    imagen: "ericadonis.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   mariateresa: {
     nombreCompleto: "María Teresa Gochez",
@@ -37,7 +59,18 @@ const TARJETAS = {
     telefonoVisible: "+502 3997 5761",
     correo: "mgochez@impulsa.com.gt",
     puesto: "Asesor de Ventas",
-    imagen: "mariateresa.png"
+    imagen: "mariateresa.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   diego: {
     nombreCompleto: "Diego Marroquín",
@@ -47,7 +80,18 @@ const TARJETAS = {
     telefonoVisible: "+502 3997 5836",
     correo: "dmarroquin@impulsa.com.gt",
     puesto: "Asesor de Ventas",
-    imagen: "diego.png"
+    imagen: "diego.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   karlaperez: {
     nombreCompleto: "Karla Pérez",
@@ -68,7 +112,17 @@ const TARJETAS = {
     correo: "mleung@impulsa.com.gt",
     puesto: "Directora de Mercadeo",
     imagen: "cristinaleung.png",
-    iconsTop: 71.15
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   escarlethamado: {
     nombreCompleto: "Escarleth Amado",
@@ -78,7 +132,18 @@ const TARJETAS = {
     telefonoVisible: "+502 3004 2660",
     correo: "eamado@impulsa.com.gt",
     puesto: "Gerente Administrativa",
-    imagen: "escarlethamado.png"
+    imagen: "escarlethamado.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   },
   franciscoleon: {
     nombreCompleto: "Francisco León",
@@ -131,8 +196,16 @@ const TARJETAS = {
     correo: "gvanegas@impulsa.com.gt",
     puesto: "Gerente Administrativa de Proyectos",
     imagen: "gabrielavanegas.png",
-    iconsTop: 71.9,
-    guardarTop: 80.15,
-    visitarTop: 88.27
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
