@@ -207,5 +207,26 @@ const TARJETAS = {
     },
     guardarTop: 80.13,
     visitarTop: 89.52
+  },
+  mariacristina: {
+    nombreCompleto: "María Cristina Arriola",
+    nombre: "María Cristina",
+    apellido: "Arriola",
+    telefono: "50240272293",
+    telefonoVisible: "+502 4027 2293",
+    correo: "marriola@impulsa.com.gt",
+    puesto: "Directora de Nuevos Proyectos",
+    imagen: "mariacristina.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 69.75, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 69.75, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 69.75, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 69.75, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 69.75, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 69.75, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
