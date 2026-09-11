@@ -239,5 +239,26 @@ const TARJETAS = {
     },
     guardarTop: 80.13,
     visitarTop: 89.52
+  },
+  margaritaarrivillaga: {
+    nombreCompleto: "Margarita Arrivillaga",
+    nombre: "Margarita",
+    apellido: "Arrivillaga",
+    telefono: "50239903121",
+    telefonoVisible: "+502 3990 3121",
+    correo: "marrivillaga@impulsa.com.gt",
+    puesto: "Gerente de Ventas Inmobiliario",
+    imagen: "margaritaarrivillaga.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 68.55, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 68.55, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 68.55, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 68.55, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 68.55, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 68.55, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
