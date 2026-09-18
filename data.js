@@ -247,7 +247,7 @@ const TARJETAS = {
     telefono: "50239903121",
     telefonoVisible: "+502 3990 3121",
     correo: "marrivillaga@impulsa.com.gt",
-    puesto: "Gerente de Ventas Inmobiliario",
+    puesto: "Directora de Ventas",
     imagen: "margaritaarrivillaga.png",
     linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
     iconOverrides: {
