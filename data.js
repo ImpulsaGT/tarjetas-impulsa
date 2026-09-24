@@ -260,5 +260,26 @@ const TARJETAS = {
     },
     guardarTop: 80.13,
     visitarTop: 89.52
+  },
+  melissahernandez: {
+    nombreCompleto: "Melissa Hernández",
+    nombre: "Melissa",
+    apellido: "Hernández",
+    telefono: "",
+    telefonoVisible: "",
+    correo: "mhernandez@impulsa.com.gt",
+    puesto: "Gerente de Ventas Inmobiliario",
+    imagen: "melissahernandez.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
