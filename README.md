@@ -22,3 +22,6 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 - Francisco León: https://impulsagt.github.io/tarjetas-impulsa/?p=franciscoleon
 - Juan Francisco Abril: https://impulsagt.github.io/tarjetas-impulsa/?p=juanfrancisco
 - Gabriela Vanegas: https://impulsagt.github.io/tarjetas-impulsa/?p=gabrielavanegas
+- María Cristina Arriola: https://impulsagt.github.io/tarjetas-impulsa/?p=mariacristina
+- Margarita Arrivillaga: https://impulsagt.github.io/tarjetas-impulsa/?p=margaritaarrivillaga
+- Melissa Hernández: https://impulsagt.github.io/tarjetas-impulsa/?p=melissahernandez
