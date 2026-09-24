@@ -226,7 +226,7 @@ const TARJETAS = {
     telefono: "50240272293",
     telefonoVisible: "+502 4027 2293",
     correo: "marriola@impulsa.com.gt",
-    puesto: "Directora de Nuevos Proyectos",
+    puesto: "Directora de Desarrollo y Estrategia",
     imagen: "mariacristina.png",
     linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
     iconOverrides: {
