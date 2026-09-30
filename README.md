@@ -25,3 +25,11 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 - María Cristina Arriola: https://impulsagt.github.io/tarjetas-impulsa/?p=mariacristina
 - Margarita Arrivillaga: https://impulsagt.github.io/tarjetas-impulsa/?p=margaritaarrivillaga
 - Melissa Hernández: https://impulsagt.github.io/tarjetas-impulsa/?p=melissahernandez
+- Estuardo Noack: https://impulsagt.github.io/tarjetas-impulsa/?p=estuardonoack
+- Jaime Velásquez: https://impulsagt.github.io/tarjetas-impulsa/?p=jaimevelasquez
+- Jorge Reyes: https://impulsagt.github.io/tarjetas-impulsa/?p=jorgereyes
+- Liz Lainez: https://impulsagt.github.io/tarjetas-impulsa/?p=lizlainez
+- Luz Adriana Mota: https://impulsagt.github.io/tarjetas-impulsa/?p=luzadrianamota
+- Pablo Girón: https://impulsagt.github.io/tarjetas-impulsa/?p=pablogiron
+- Rolando Maldonado: https://impulsagt.github.io/tarjetas-impulsa/?p=rolandomaldonado
+- Trini López: https://impulsagt.github.io/tarjetas-impulsa/?p=trinilopez
