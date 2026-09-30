@@ -281,5 +281,173 @@ const TARJETAS = {
     },
     guardarTop: 80.13,
     visitarTop: 89.52
+  },
+  estuardonoack: {
+    nombreCompleto: "Estuardo Noack",
+    nombre: "Estuardo",
+    apellido: "Noack",
+    telefono: "50242168076",
+    telefonoVisible: "+502 4216 8076",
+    correo: "enoack@impulsa.com.gt",
+    puesto: "Gerente de proyectos nuevos",
+    imagen: "estuardonoack.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  jaimevelasquez: {
+    nombreCompleto: "Jaime Velásquez",
+    nombre: "Jaime",
+    apellido: "Velásquez",
+    telefono: "50241321055",
+    telefonoVisible: "+502 4132 1055",
+    correo: "jvelasquez@impulsa.com.gt",
+    puesto: "Project Manager",
+    imagen: "jaimevelasquez.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  jorgereyes: {
+    nombreCompleto: "Jorge Reyes",
+    nombre: "Jorge",
+    apellido: "Reyes",
+    telefono: "50240945778",
+    telefonoVisible: "+502 4094 5778",
+    correo: "jreyes@impulsa.com.gt",
+    puesto: "Especialista en Propuestas de Inversión",
+    imagen: "jorgereyes.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  lizlainez: {
+    nombreCompleto: "Liz Lainez",
+    nombre: "Liz",
+    apellido: "Lainez",
+    telefono: "50249763272",
+    telefonoVisible: "+502 4976 3272",
+    correo: "llainez@impulsa.com.gt",
+    puesto: "Project Manager",
+    imagen: "lizlainez.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  luzadrianamota: {
+    nombreCompleto: "Luz Adriana Mota",
+    nombre: "Luz Adriana",
+    apellido: "Mota",
+    telefono: "50237688760",
+    telefonoVisible: "+502 3768 8760",
+    correo: "lmota@impulsa.com.gt",
+    puesto: "Coordinador Técnico Administrativo",
+    imagen: "luzadrianamota.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  pablogiron: {
+    nombreCompleto: "Pablo Girón",
+    nombre: "Pablo",
+    apellido: "Girón",
+    telefono: "50230398757",
+    telefonoVisible: "+502 3039 8757",
+    correo: "pgiron@impulsa.com.gt",
+    puesto: "Project Manager",
+    imagen: "pablogiron.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  rolandomaldonado: {
+    nombreCompleto: "Rolando Maldonado",
+    nombre: "Rolando",
+    apellido: "Maldonado",
+    telefono: "50255133803",
+    telefonoVisible: "+502 5513 3803",
+    correo: "rmaldonado@impulsa.com.gt",
+    puesto: "Gerente de Contrataciones, Costos y Presupuestos",
+    imagen: "rolandomaldonado.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
+  },
+  trinilopez: {
+    nombreCompleto: "Trini López",
+    nombre: "Trini",
+    apellido: "López",
+    telefono: "50230665266",
+    telefonoVisible: "+502 3066 5266",
+    correo: "tlopez@impulsa.com.gt",
+    puesto: "Coordinador Pre Construcción",
+    imagen: "trinilopez.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
