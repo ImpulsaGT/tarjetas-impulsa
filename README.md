@@ -33,3 +33,4 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 - Pablo Girón: https://impulsagt.github.io/tarjetas-impulsa/?p=pablogiron
 - Rolando Maldonado: https://impulsagt.github.io/tarjetas-impulsa/?p=rolandomaldonado
 - Trini López: https://impulsagt.github.io/tarjetas-impulsa/?p=trinilopez
+- Ignacio Morales: https://impulsagt.github.io/tarjetas-impulsa/?p=ignaciomorales
