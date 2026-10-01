@@ -10,27 +10,8 @@ Tarjetas digitales de contacto del equipo de IMPULSA. Un solo repositorio para t
 
    `https://impulsagt.github.io/tarjetas-impulsa/?p=slug`
 
-## Tarjetas actuales
+## Seguridad
 
-- Werner Gaitán: https://impulsagt.github.io/tarjetas-impulsa/?p=wernergaitan
-- Erica Donis: https://impulsagt.github.io/tarjetas-impulsa/?p=ericadonis
-- María Teresa Gochez: https://impulsagt.github.io/tarjetas-impulsa/?p=mariateresa
-- Diego Marroquín: https://impulsagt.github.io/tarjetas-impulsa/?p=diego
-- Karla Pérez: https://impulsagt.github.io/tarjetas-impulsa/?p=karlaperez
-- Cristina Leung: https://impulsagt.github.io/tarjetas-impulsa/?p=cristinaleung
-- Escarleth Amado: https://impulsagt.github.io/tarjetas-impulsa/?p=escarlethamado
-- Francisco León: https://impulsagt.github.io/tarjetas-impulsa/?p=franciscoleon
-- Juan Francisco Abril: https://impulsagt.github.io/tarjetas-impulsa/?p=juanfrancisco
-- Gabriela Vanegas: https://impulsagt.github.io/tarjetas-impulsa/?p=gabrielavanegas
-- María Cristina Arriola: https://impulsagt.github.io/tarjetas-impulsa/?p=mariacristina
-- Margarita Arrivillaga: https://impulsagt.github.io/tarjetas-impulsa/?p=margaritaarrivillaga
-- Melissa Hernández: https://impulsagt.github.io/tarjetas-impulsa/?p=melissahernandez
-- Estuardo Noack: https://impulsagt.github.io/tarjetas-impulsa/?p=estuardonoack
-- Jaime Velásquez: https://impulsagt.github.io/tarjetas-impulsa/?p=jaimevelasquez
-- Jorge Reyes: https://impulsagt.github.io/tarjetas-impulsa/?p=jorgereyes
-- Liz Lainez: https://impulsagt.github.io/tarjetas-impulsa/?p=lizlainez
-- Luz Adriana Mota: https://impulsagt.github.io/tarjetas-impulsa/?p=luzadrianamota
-- Pablo Girón: https://impulsagt.github.io/tarjetas-impulsa/?p=pablogiron
-- Rolando Maldonado: https://impulsagt.github.io/tarjetas-impulsa/?p=rolandomaldonado
-- Trini López: https://impulsagt.github.io/tarjetas-impulsa/?p=trinilopez
-- Ignacio Morales: https://impulsagt.github.io/tarjetas-impulsa/?p=ignaciomorales
+- La lista completa de links por persona **no** se publica aqui ni en el sitio, para evitar que se puedan recolectar todos los correos y telefonos de una vez. Mantenla en un lugar interno (por ejemplo, SharePoint).
+- Antes de subir una imagen nueva, quitale los metadatos (Canva incluye el ID del diseno y del usuario).
+- El slug solo puede tener letras minusculas y numeros.
