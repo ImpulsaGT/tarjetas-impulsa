@@ -289,7 +289,7 @@ const TARJETAS = {
     telefono: "50242168076",
     telefonoVisible: "+502 4216 8076",
     correo: "enoack@impulsa.com.gt",
-    puesto: "Gerente de proyectos nuevos",
+    puesto: "Gerente de Proyectos Nuevos",
     imagen: "estuardonoack.png",
     linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
     iconOverrides: {
