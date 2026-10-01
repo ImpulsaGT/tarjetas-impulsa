@@ -449,5 +449,26 @@ const TARJETAS = {
     },
     guardarTop: 80.13,
     visitarTop: 89.52
+  },
+  ignaciomorales: {
+    nombreCompleto: "Ignacio Morales",
+    nombre: "Ignacio",
+    apellido: "Morales",
+    telefono: "50239979100",
+    telefonoVisible: "+502 3997 9100",
+    correo: "imorales@impulsa.com.gt",
+    puesto: "Project Manager",
+    imagen: "ignaciomorales.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
