@@ -520,7 +520,7 @@ const TARJETAS = {
     telefono: "50252123026",
     telefonoVisible: "+502 5212 3026",
     correo: "lzeledon@impulsa.com.gt",
-    puesto: "Project Manager",
+    puesto: "Gerente de Portafolio de Proyectos",
     imagen: "luzellyzeledon.png",
     linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
     iconOverrides: {
