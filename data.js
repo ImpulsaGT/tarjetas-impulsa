@@ -533,5 +533,26 @@ const TARJETAS = {
     },
     guardarTop: 80.13,
     visitarTop: 89.52
+  },
+  rebecajeronimo: {
+    nombreCompleto: "Rebeca Jerónimo",
+    nombre: "Rebeca",
+    apellido: "Jerónimo",
+    telefono: "50239928190",
+    telefonoVisible: "+502 3992 8190",
+    correo: "rjeronimo@impulsa.com.gt",
+    puesto: "Project Manager",
+    imagen: "rebecajeronimo.png",
+    linkedin: "https://www.linkedin.com/company/impulsa-desarrollos/posts/?feedView=all",
+    iconOverrides: {
+      whatsapp: { top: 70.3, left: 12.833, width: 10.778, height: 6.73 },
+      instagram: { top: 70.3, left: 25.611, width: 10.444, height: 6.73 },
+      facebook: { top: 70.3, left: 37.833, width: 10.444, height: 6.73 },
+      linkedin: { top: 70.3, left: 50.056, width: 11.222, height: 6.73 },
+      telefono: { top: 70.3, left: 62.167, width: 10.444, height: 6.73 },
+      tiktok: { top: 70.3, left: 74.167, width: 10.444, height: 6.73 }
+    },
+    guardarTop: 80.13,
+    visitarTop: 89.52
   }
 };
